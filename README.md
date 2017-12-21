@@ -2,7 +2,7 @@
 
 Questa DLL c# permette di leggere un file CSV e rimuovere eventuali righe vuote alla fine del file ed eventuali celle vuote in fondo alla riga in base alle colonne specificate nell'intestazione.
 
-Il formato predefinito per il file csv prevede il punto e virgola ';' come carattere separatore e accetta sia il terminatore di riga linux (LF) sia quello di windows (CRLF).
+Il formato predefinito per leggere il file csv con questa DLL prevede il punto e virgola ';' come carattere separatore e accetta sia il terminatore di riga linux (LF) sia quello di windows (CRLF).
 
 Per utilizzare la DLL è sufficiente istanziare un oggetto di tipo CSVParser.Cleaner e chiamare il metodo Clean passando come parametro il path del file.
 
